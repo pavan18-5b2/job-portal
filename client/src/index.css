@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+@layer base{
+    html{
+        scroll-behavior:smooth;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Job Description */
+
+.job-description {
+    margin-top: 20px;
+    padding: 10px;
+    color: #333;
+}
+
+.job-description h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.rich-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.rich-text h2,
+.rich-text h3,
+.rich-text h4 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #222;
+    margin: 20px 0 12px;
+}
+
+.rich-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.rich-text ol,
+.rich-text ul {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+}
+
+.rich-text li {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+    padding-left: 5px;
+    margin-bottom: 6px;
+}
+
+.apply-btn {
+    background-color: #3399d6;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.apply-btn:hover {
+    background-color: #2384bd;
+}
